@@ -1,0 +1,14 @@
+C:\Users\golqm\source\repos\AgencyAPI\Agency.Data\bin\Debug\net7.0\Agency.Data.deps.json
+C:\Users\golqm\source\repos\AgencyAPI\Agency.Data\bin\Debug\net7.0\Agency.Data.runtimeconfig.json
+C:\Users\golqm\source\repos\AgencyAPI\Agency.Data\bin\Debug\net7.0\Agency.Data.dll
+C:\Users\golqm\source\repos\AgencyAPI\Agency.Data\bin\Debug\net7.0\Agency.Data.pdb
+C:\Users\golqm\source\repos\AgencyAPI\Agency.Data\obj\Debug\net7.0\Agency.Data.csproj.AssemblyReference.cache
+C:\Users\golqm\source\repos\AgencyAPI\Agency.Data\obj\Debug\net7.0\Agency.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\golqm\source\repos\AgencyAPI\Agency.Data\obj\Debug\net7.0\Agency.Data.AssemblyInfoInputs.cache
+C:\Users\golqm\source\repos\AgencyAPI\Agency.Data\obj\Debug\net7.0\Agency.Data.AssemblyInfo.cs
+C:\Users\golqm\source\repos\AgencyAPI\Agency.Data\obj\Debug\net7.0\Agency.Data.csproj.CoreCompileInputs.cache
+C:\Users\golqm\source\repos\AgencyAPI\Agency.Data\obj\Debug\net7.0\Agency.Data.dll
+C:\Users\golqm\source\repos\AgencyAPI\Agency.Data\obj\Debug\net7.0\refint\Agency.Data.dll
+C:\Users\golqm\source\repos\AgencyAPI\Agency.Data\obj\Debug\net7.0\Agency.Data.pdb
+C:\Users\golqm\source\repos\AgencyAPI\Agency.Data\obj\Debug\net7.0\Agency.Data.genruntimeconfig.cache
+C:\Users\golqm\source\repos\AgencyAPI\Agency.Data\obj\Debug\net7.0\ref\Agency.Data.dll

@@ -1,0 +1,5 @@
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\netcoreapp3.1\Agency.csproj.AssemblyReference.cache
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\netcoreapp3.1\Agency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\netcoreapp3.1\Agency.AssemblyInfoInputs.cache
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\netcoreapp3.1\Agency.AssemblyInfo.cs
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\netcoreapp3.1\Agency.csproj.CoreCompileInputs.cache

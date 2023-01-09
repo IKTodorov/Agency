@@ -1,0 +1,15 @@
+C:\Users\golqm\source\repos\Skeleton\Agency\bin\Debug\net7.0\AgencyServices.deps.json
+C:\Users\golqm\source\repos\Skeleton\Agency\bin\Debug\net7.0\AgencyServices.dll
+C:\Users\golqm\source\repos\Skeleton\Agency\bin\Debug\net7.0\AgencyServices.pdb
+C:\Users\golqm\source\repos\Skeleton\Agency\bin\Debug\net7.0\AgencyData.dll
+C:\Users\golqm\source\repos\Skeleton\Agency\bin\Debug\net7.0\AgencyData.pdb
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\net7.0\AgencyServices.csproj.AssemblyReference.cache
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\net7.0\AgencyServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\net7.0\AgencyServices.AssemblyInfoInputs.cache
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\net7.0\AgencyServices.AssemblyInfo.cs
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\net7.0\AgencyServices.csproj.CoreCompileInputs.cache
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\net7.0\AgencyServices.csproj.CopyComplete
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\net7.0\AgencyServices.dll
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\net7.0\refint\AgencyServices.dll
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\net7.0\AgencyServices.pdb
+C:\Users\golqm\source\repos\Skeleton\Agency\obj\Debug\net7.0\ref\AgencyServices.dll
