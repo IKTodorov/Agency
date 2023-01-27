@@ -11,50 +11,51 @@ namespace AgencyAPI.Controllers
     public class TicketController : ControllerBase
     {
         private readonly ITicketService _ticketService;
-        public TicketController(ITicketService service) { 
-            _ticketService= service;
+        public TicketController(ITicketService service)
+        {
+            _ticketService = service;
         }
 
         [HttpPost]
-        public JsonResult CreateTicket(TicketDTO ticketDTO)
+        public async Task<IActionResult> CreateTicket(TicketDTO ticketDTO)
         {
-            var ticket_result = _ticketService.CreateTicket(ticketDTO);
-            if(ticket_result == null) 
-            {
-                return new JsonResult(BadRequest("No such vehicle with id " + ticketDTO.JourneyId));
-            }
-            return new JsonResult(Ok(ticketDTO));
+            await _ticketService.CreateTicket(ticketDTO);
+            return new JsonResult(Ok());
         }
         [HttpDelete]
-        public JsonResult DeleteTicket(int id)
+        public async Task<IActionResult> DeleteTicket(int id)
         {
-            TicketDTO ticket = _ticketService.DeleteTicket(id);
-            if(ticket == null)
-            {
-                return new JsonResult(NotFound("No ticket with id " + id));
-            }
-            return new JsonResult(Ok(ticket));
+            await _ticketService.DeleteTicket(id);
+
+            return new JsonResult(Ok());
+
         }
         [HttpGet]
-        public JsonResult GetTicket(int id)
+        public async Task<IActionResult> GetTicket(int id)
         {
-            TicketDTO ticket = _ticketService.GetTicket(id);
-            if(ticket == null)
+            TicketDTO ticket = await _ticketService.GetTicket(id);
+            if (ticket == null)
             {
                 return new JsonResult(NotFound("No ticket with id " + id));
             }
             return new JsonResult(Ok(ticket));
         }
         [HttpGet("GetAll")]
-        public JsonResult GetAllTickets()
+        public async Task<IActionResult> GetAllTickets()
         {
-            List<TicketDTO> tickets = _ticketService.GetAllTickets();
-            if(tickets== null)
+            var tickets = await _ticketService.GetAllTickets();
+            if (!tickets.Any())
             {
                 return new JsonResult(NotFound("No tickets found"));
             }
             return new JsonResult(tickets);
         }
-        
+        [HttpPost("Update")]
+        public async Task<IActionResult> UpdateTicket(TicketDTO ticket)
+        {
+            await _ticketService.UpdateTicket(ticket);
+            return new JsonResult(Ok());
+        }
+
     }
 }

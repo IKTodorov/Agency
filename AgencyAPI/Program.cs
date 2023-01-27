@@ -22,8 +22,6 @@ builder.Services.AddScoped<IAirplaneService, AirplaneService>();
 builder.Services.AddScoped<IVehicleService, VehicleService>();
 
 
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

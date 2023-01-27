@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgencyAPI", "AgencyAPI\Agen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgencyServices", "..\Skeleton\Agency\AgencyServices.csproj", "{FF16FB41-F5E0-4904-8D5C-D47E3F1E4572}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgencyData", "Agency.Data\AgencyData.csproj", "{8BF6691C-3947-454E-B151-C3AED75B1C17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgencyData", "Agency.Data\AgencyData.csproj", "{8BF6691C-3947-454E-B151-C3AED75B1C17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgencyTests", "AgencyTests\AgencyTests.csproj", "{999C17E0-5C5D-4682-8FA9-205271168C4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8BF6691C-3947-454E-B151-C3AED75B1C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BF6691C-3947-454E-B151-C3AED75B1C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BF6691C-3947-454E-B151-C3AED75B1C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999C17E0-5C5D-4682-8FA9-205271168C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999C17E0-5C5D-4682-8FA9-205271168C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999C17E0-5C5D-4682-8FA9-205271168C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999C17E0-5C5D-4682-8FA9-205271168C4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

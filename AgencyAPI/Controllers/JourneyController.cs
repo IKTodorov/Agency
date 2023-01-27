@@ -19,45 +19,45 @@ namespace AgencyAPI.Controllers
         }
 
         [HttpPost]
-        public JsonResult CreateJoureny(JourneyDTO journeyDTO)
+        public async Task<IActionResult> CreateJoureny(JourneyDTO journeyDTO)
         {
-            var journey_result = _service.CreateJourney(journeyDTO);
-            if(journey_result == null)
-            {
-                return new JsonResult(BadRequest("No such vehicle with id "+journeyDTO.VehicleId));
-            }
-            return new JsonResult(Ok(journeyDTO));
+            await _service.CreateJourney(journeyDTO);
+            
+            return Ok();
         }
 
         [HttpDelete]
-        public JsonResult DeleteJourney(int id)
+        public async Task<IActionResult> DeleteJourney(int id)
         {
-            JourneyDTO journey = _service.DeleteJourney(id);
-            if (journey == null)
-            {
-                return new JsonResult(NotFound("No journey with id "+id));
-            }
-            return new JsonResult(Ok(journey));
+            await _service.DeleteJourney(id);
+            
+            return Ok();
         }
         [HttpGet]
-        public JsonResult GetJourney(int id)
+        public async Task<IActionResult> GetJourney(int id)
         {
-            JourneyDTO journey = _service.GetJourney(id);
+            JourneyDTO journey = await _service.GetJourney(id);
             if (journey == null)
             {
                 return new JsonResult(NotFound("No journey with id " + id));
             }
-            return new JsonResult(Ok(journey));
+            return Ok(journey);
         }
         [HttpGet("GetAll")]
-        public JsonResult GetAllJourneys()
+        public async Task<IActionResult> GetAllJourneys()
         {
-            List<JourneyDTO> journeys = _service.GetAllJourneys();
-            if (journeys == null)
+            var journeys = await _service.GetAllJourneys();
+            if (!journeys.Any())
             {
                 return new JsonResult(NotFound("No journeys found"));
             }
-            return new JsonResult(Ok(journeys));
+            return Ok(journeys);
+        }
+        [HttpPost("Update")]
+        public async Task<IActionResult> UpdateJourney(JourneyDTO journeyDTO)
+        {
+            await _service.UpdateJourney(journeyDTO);
+            return new JsonResult(Ok());
         }
     }
 }
